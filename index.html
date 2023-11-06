@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="navbar">
+        <h1>Book App</h1>
+    </div>
+
+
+    <div class="container">
+        <div class="book">
+            <h2>Wings of fire</h2>
+            <h4>Abdul kalam</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea saepe sequi magnam iste culpa, fugiat, maxime inventore facilis reiciendis dolorem facere quisquam cupiditate repudiandae dolor quos neque molestias ad voluptas.</p>
+            <button onclick="deleteBook(event)">Delete</button>
+        </div>
+    </div>
+
+
+    <div class="pop-overlay">
+
+    </div>
+
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form action="">
+            <input type="text" placeholder="Book Title" id="book-title">
+            <input type="text" placeholder="Book Author" id="book-author">
+            <textarea placeholder="Short description" id="description"></textarea>
+            <button id="Add-book">Add</button>
+            <button id="Cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button id="add-popup" class="add-button">+</button>
+
+
+<!-- 
+    <button onclick="show()">show</button>
+    <div class="overlay">
+
+    </div>
+
+    <div class="popup">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore, odio distinctio aperiam unde
+            ducimus! Accusantium explicabo ipsa officia quis numquam? Voluptates delectus iste fuga cupiditate atque, id
+            obcaecati velit.</p>
+        <button onclick="closepopup()">close</button>
+    </div> -->
+
+
+
+    <!--     
+<script>
+
+    var overlay = document.querySelector(".overlay")
+    var popup = document.querySelector(".popup")
+
+    function show() {
+        overlay.style.display="block"
+        popup.style.display="block"
+        
+    }
+    function closepopup(){
+        overlay.style.display="none"
+        popup.style.display="none"
+        
+    }
+
+</script> -->
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
